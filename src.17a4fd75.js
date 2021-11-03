@@ -29,4 +29,4 @@ var e,t=arguments[3];!function(t,r){"object"==typeof exports&&"object"==typeof m
 },{"notiflix":"ja4j","./refs":"VyiV","./analyzeText":"ewUt"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/app.js");
 },{"./sass/main.scss":"clu1","./js/app.js":"QdeU"}]},{},["Focm"], null)
-//# sourceMappingURL=/*project-name*/src.17a4fd75.js.map
+//# sourceMappingURL=/word-search/src.17a4fd75.js.map
