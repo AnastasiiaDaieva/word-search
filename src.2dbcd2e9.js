@@ -31,4 +31,4 @@ var e,t=arguments[3];!function(t,r){"object"==typeof exports&&"object"==typeof m
 },{"./refs":"VyiV"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/app.js"),require("./js/handleTextarea.js");
 },{"./sass/main.scss":"clu1","./js/app.js":"QdeU","./js/handleTextarea.js":"T36Q"}]},{},["Focm"], null)
-//# sourceMappingURL=/word-search/src.cd47f73f.js.map
+//# sourceMappingURL=/word-search/src.2dbcd2e9.js.map
