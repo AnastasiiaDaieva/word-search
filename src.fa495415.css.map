@@ -1,1 +1,0 @@
-{"version":3,"sources":["sass/main.scss"],"names":[],"mappings":"AAAA,WACE,YAAA,CACA,mBAGA,oBACE","file":"src.fa495415.css","sourceRoot":"../src","sourcesContent":[".container {\n  display: flex;\n  flex-direction: row;\n}\n.stopWordItem {\n  &:hover {\n    color: blue;\n  }\n}\n"]}
