@@ -1,7 +1,7 @@
-<form id="form">
-  <input type="text" id="input" />
+<form id="form" class="mui-form">
+  <input type="text" id="input" class="mui-textfield mui-textfield--float-label" />
 
-  <button type="submit">Analyze text</button>
+  <button type="submit" class="mui-btn mui-btn--primary">Analyze text</button>
 </form>
 
 <div class="container">
@@ -10,7 +10,13 @@
       <!-- cloned text with <mark> tags here -->
     </div>
   </div>
-  <textarea name="" id="textarea" cols="100" rows="30"></textarea>
+  <textarea
+    name=""
+    id="textarea"
+    cols="100"
+    rows="30"
+    class="mui-textfield mui-textfield--float-label"
+  ></textarea>
 
   <div class="stop-words-container"></div>
 </div>

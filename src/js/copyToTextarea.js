@@ -4,6 +4,6 @@ import searchStopWords from './searchStopWords';
 const { textareaAccess } = refs;
 
 export default function copyToTextarea(content) {
-  textareaAccess.value = content;
+  textareaAccess.value = content.trim();
   searchStopWords(textareaAccess.value);
 }

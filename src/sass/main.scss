@@ -1,3 +1,15 @@
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.listheading {
+  margin-bottom: 10px;
+}
+
 .container {
   display: flex;
   flex-direction: row;
@@ -6,4 +18,43 @@
   &:hover {
     color: blue;
   }
+}
+.substituteList {
+  margin-bottom: 25px;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+
+.mui-divider {
+  margin-bottom: 10px;
+}
+
+.mui-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+textarea {
+  margin: 0;
+  border-radius: 0;
+  color: #444; /* or whatever */
+  background-color: transparent;
+}
+
+.backdrop {
+  overflow: auto;
+  background-color: #fff; /* or whatever */
+}
+
+.highlights {
+  color: transparent;
+
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+mark {
+  color: transparent;
+  background-color: #d4e9ab; /* or whatever */
 }
