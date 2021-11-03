@@ -39,23 +39,5 @@ h4 {
 textarea {
   margin: 0;
   border-radius: 0;
-  color: #444; /* or whatever */
-  background-color: transparent;
-}
-
-.backdrop {
-  overflow: auto;
-  background-color: #fff; /* or whatever */
-}
-
-.highlights {
-  color: transparent;
-
-  white-space: pre-wrap;
-  word-wrap: break-word;
-}
-
-mark {
-  color: transparent;
-  background-color: #d4e9ab; /* or whatever */
+  color: #444;
 }
