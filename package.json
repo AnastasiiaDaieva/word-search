@@ -3,20 +3,20 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://AnastasiiaDaieva.github.io/*project-name*",
+  "homepage": "https://AnastasiiaDaieva.github.io/word-search",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /*project-name*/"
+    "build": "parcel build src/*.html --public-url /word-search/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AnastasiiaDaieva/*project-name*.git"
+    "url": "git+https://github.com/AnastasiiaDaieva/word-search.git"
   },
   "keywords": [],
   "author": "Anastasiia Daieva <d.anasteysh@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AnastasiiaDaieva/*project-name*/issues"
+    "url": "https://github.com/AnastasiiaDaieva/word-search/issues"
   },
   "devDependencies": {
     "mark.js": "^8.11.1",
