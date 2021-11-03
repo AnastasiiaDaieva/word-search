@@ -1,0 +1,14 @@
+<ul class="stopWordsList">
+    <h2>Detected stop words:</h2>
+        {{#each this}}
+        <li class="stopWordItem">
+            {{this.word}}
+<ul class="substituteList">
+    <h3>Substitutes:</h3>
+{{#each this.substitutes}}
+                <li class="substituteItem"> {{this}}</li>
+
+{{/each}}
+</ul>        </li>
+        {{/each}}
+</ul>
