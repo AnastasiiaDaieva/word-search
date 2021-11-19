@@ -169,7 +169,7 @@ export default function searchStopWords(content) {
   let arrayOfStopWords = [];
 
   stopWords.map(stopWord => {
-    if (content.includes(stopWord.word)) {
+    if (content.toLowerCase().includes(stopWord.word)) {
       // function for keyword search
       // const markInstance = new Mark(textareaAccess);
       // console.log(markInstance);
