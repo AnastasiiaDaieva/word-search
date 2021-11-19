@@ -7,7 +7,7 @@ h4 {
 }
 
 .listheading {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .container {
@@ -16,6 +16,7 @@ h4 {
   flex-direction: row;
 }
 .stopWordItem {
+  margin-right: 75px;
   &:hover {
     color: blue;
   }
@@ -80,4 +81,15 @@ textarea {
 
 .textarea-field {
   width: 65vw;
+}
+
+.stopWordsList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.stopWord {
+  font-size: 16px;
+  font-weight: 600;
 }
